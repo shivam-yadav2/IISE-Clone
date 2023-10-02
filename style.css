@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* UTILITIES  */
+
+a{
+    text-decoration: none;
+}
+
+.section-p{
+    padding: 10px 110px ;
+
+}
+
+p{
+    color: grey;
+}
+
+/* HOME page  */
+
+#head-P1{
+    background-color: #74c9ff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head-P1 div a,
+#head-P1 a{
+    color: white;
+}
+
+#head-P1 div a{
+    margin-left: 28px;
+}
+
+#head-P2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding: 0 110px;
+    padding-top: 28px;
+    padding-bottom: 10px;
+}
+
+#head-P2 .logo img{
+    width: 530px;
+}
+
+#head-P2 .head-call{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#head-P2 .head-call i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+#head-P2 .head-call div p{
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+#head-P2 .head-call div .num{
+    color: black;
+    font-weight: bold;
+}
+
+.cours h4{
+    font-size: 15px;
+    text-align: center;
+}
+
+.gif img{
+    width: 150px;
+}
+
+#navbar{
+    background-color: #202C45 ;
+    color: white;
+    height: 73px;
+}
