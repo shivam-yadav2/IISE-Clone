@@ -90,4 +90,69 @@ p{
     background-color: #202C45 ;
     color: white;
     height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-list .nav-item{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#nav-list .nav-item  div a{
+    color: white;
+    padding: 10px 13px;
+    font-size: 16px;
+    transition: 0.2s ease;
+    border-radius: 20px;
+
+}
+
+#nav-list .nav-item div a:hover{
+    background-color: white;
+    color: black;
+}
+
+.dropdown{
+    display: none;
+    top: 73px;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+}
+.dropdown2{
+    display: block;
+    background-color: red;
+    top: 73px;
+    position: absolute;
+    width: 150px;
+    text-align: center;
+}
+
+.dropdown li{
+    padding-top: 10px;
+    list-style: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.dropdown li a:hover{
+    color: grey;
+}
+
+/* HERO  */
+
+#hero1{
+    background-color: #202C45;
+    padding-bottom: 73px;
 }
